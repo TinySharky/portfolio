@@ -1,0 +1,120 @@
+@media screen and (max-width: 1400px){
+    .nav{
+        right: 20px;
+    }
+
+    #fond{
+        height: 80vh;
+    }
+
+    .main{
+        height: 80vh;
+    }
+
+    header{
+        height: 80px;
+    }
+
+    .pres p:first-child{
+        font-size: 54px;
+        color: white;
+        font-weight: 500;
+    }
+    
+    .pres p:nth-child(3){
+        font-size: 24px;
+        color: white;
+        font-weight: 200;
+    }
+    
+    .pres p:hover{
+        color: #FF3A3A;
+        scale: 1.1;
+    }
+
+    .droite{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 300px;
+        width: 600px;
+    }
+    
+    .infos{
+        height: 400px;
+        margin: 0 80px;
+    }
+
+    .infos h2{
+        font-size: 28px;
+        margin: 15px 0 16px 0;
+    }
+
+    .infos p{
+        font-size: 19px;
+        margin: 0 20px;
+    }
+
+    .esprit, .informatique, .ecole{
+        height: 240px;
+        width: 350px;
+    }
+
+    .esprit:hover, .informatique:hover, .ecole:hover{
+        scale: 1.05;
+    }
+
+    /* SKILLS */
+
+    .skills{
+        padding: 40px 0;
+    }
+    .container2{
+        padding-top: 30px;
+    }
+    .droite2 img{
+        height: 500px;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio p:nth-child(3){
+        padding: 0 350px;
+    }
+
+    .fond-site{
+        height: 250px;
+        width: 500px;
+    }
+
+    .container3 img{
+        height: 240px;
+        width: 490px;
+    }
+
+    /* CONTACT */
+
+    .contact{
+        height: 400px;
+    }
+
+    .contact ul li{
+        height: 125px;
+        width: 125px;
+        margin: 0 75px;
+    }
+
+    .contact img{
+        height: 83px;
+        width: 83px;
+    }
+
+}
+
+@media screen and (max-width: 1300px){
+    .pres p:first-child{
+        color: red;
+    }
+
+    
+}

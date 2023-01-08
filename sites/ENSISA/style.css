@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+/* NAVBAR */
+
+.navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 250px;
+    background-color: red;
+}
+
+.navbar img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin: 40px 0px;
+}
+
+.navbar li{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px;
+    color: black;
+    transition: 600ms;
+}
+
+.navbar li:hover{
+    color: red;
+    padding: 24px;
+    background-color: black;
+}
+
+/* CORPS */
+
+.main{
+    background-color: white;
+    width: 100%;
+    margin-left: 250px;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/Lyon.png);
+    height: 150px;
+}
+
+.pres{
+    display: flex;
+}
+
+.gauche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    background-color: white;
+}
+
+.contenu1{
+    margin: 30px;
+    height: 340px;
+}
+
+.contenu1 p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contenu1 ul{
+    list-style-type: disc;
+}
+
+.contenu1 span{
+    color: green;
+}
+
+.contenu1 span:hover{
+    text-decoration: underline;
+}
+
+.contenu1 li{
+    font-size: 18px;   
+    list-style-type: circle;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.droite{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 50%;
+    background-color: white;
+}
+
+.droite img{
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    transition: 500ms;
+}
+
+.droite img:hover{
+    height: 120px;
+}
+
+.droite p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.bot{
+    display: flex;
+    flex-direction: row;
+}
+
+.top-g, .top-d, .bot-g, .bot-d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 50%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+}
+
+.form input{
+    height: 40px;
+    width: 350px;
+    margin-right: 40px;
+}
+
+.form button{
+    height: 44px;
+    width: 230px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.form button:hover{
+    scale: 1.05;
+}
+
+.form button:active{
+    color: red;
+    background-color: black;
+}
+
+.from button::after{
+    background-color: black;
+    color: red;
+
+}
+
+.travail{
+    display: flex;
+    flex-direction: row;
+}
+
+.one, .two, .three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    height: 180px;
+    width: 33%;
+    background-color: pink;
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    transition: 600ms;
+}
+
+.one:hover, .two:hover, .three:hover{
+    scale: 1.05;
+}
+
+.travail h3{
+    font-size: 30px;
+}
+
+.travail p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+.footer{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.choix li{
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.choix li:hover{
+    color: white;
+}
+
+.coord{
+    text-align: center;
+}
+
+.coord li a{
+    color: red;
+    text-decoration: none;
+}
+
+.coord li a:hover{
+    color: white;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1280px) {
+    .droite p{
+        font-size: 18px;
+    }
+    
+    .droite img{
+        height: 90px;
+    }
+    
+}
