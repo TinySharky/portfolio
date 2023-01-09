@@ -21,6 +21,26 @@
         width: 100vh;
     }
 
+    .droite p{
+        font-size: 20px;
+    }
+
+    .infos{
+        margin: 0;
+    }
+
+    .infos p{
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin: 0 15px;
+    }
+
+    .esprit, .informatique, .ecole{
+        height: 300px;
+        margin: 0 10px;
+    }
+
 
 
 }
