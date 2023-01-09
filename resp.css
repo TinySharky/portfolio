@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (max-width: 1023px){
     .nav{
         display: none;
     }
@@ -118,5 +118,102 @@
         padding: 10px;
         border-radius: 10px;
         box-shadow: red 5px 5px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #fond{
+        height: 30vh;
+        width: 100vw;
+    }
+
+    .main{
+        height: 30vh;
+    }
+
+    header{
+        display: none;
+    }
+
+    .section{
+        margin-top: 0px;
+    }
+
+    .pres p:first-child{
+        font-size: 42px;
+    }
+
+    .pres p:nth-child(3){
+        font-size: 22px;
+    }
+
+    .propos{
+        height: auto;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .droite{
+        align-items: center;
+        width: 90%;
+        margin: 70px 0 70px 50px;
+    }
+
+    .droite p{
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+
+    .infos{
+        margin-top: 130px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .esprit, .informatique, .ecole{
+        margin-bottom: 20px;
+    }
+
+    .skills p:nth-child(3){
+        letter-spacing: 1px;
+        padding: 0 10px;
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+
+    .droite2{
+        width: 100vw;
+        margin-top: -150px;
+    }
+
+    .gauche2{
+        width: 250px;
+    }
+
+    .portfolio p:nth-child(3){
+        letter-spacing: 1px;
+        padding: 0 10px;
+    }
+
+    .fond-site{
+        height: 150px;
+        width: 310px;
+    }
+
+    .container3 img{
+        height: 130px;
+        width: 290px;
+    }
+
+    .tab p{
+        font-size: 20px;
+    }
+
+    footer p{
+        font-size: 16px;
     }
 }
