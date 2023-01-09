@@ -167,9 +167,7 @@
     }
 
     .infos{
-        margin-top: 170px;
         flex-direction: column;
-        margin-bottom: 150px;
         height: auto;
     }
 
