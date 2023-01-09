@@ -558,6 +558,10 @@ span{
     display: none;
 }
 
+.tab a{
+    color: black;
+}
+
 /* FOOTER */
 
 footer{
