@@ -140,11 +140,11 @@
     }
 
     .pres p:first-child{
-        font-size: 42px;
+        font-size: 36px;
     }
 
     .pres p:nth-child(3){
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .propos{

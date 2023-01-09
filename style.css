@@ -27,7 +27,7 @@ body{
     -moz-animation:ouverture 2s ease 0s 1 normal;
     -webkit-animation:ouverture 2s ease 0s 1 normal;
     -ms-animation:ouverture 2s ease 0s 1 normal;
-    max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -288,7 +288,7 @@ header a{
     text-align: center;
     font-size: 18px;
     letter-spacing: 2px;
-    padding: 0 30%;
+    padding: 0 30px;
     line-height: 35px;
 }
 
