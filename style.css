@@ -300,12 +300,12 @@ header a{
     padding-top: 50px;
 }
 
-.gauche2{   
-    height: 650px;
-    width: 40%;
+.gauche2{  
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    height: 650px;
+    width: 40%;
 }
 
 /* PROGRESS BAR */

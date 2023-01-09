@@ -181,7 +181,9 @@
     }
 
     .container2{
+        justify-content: flex-start;
         flex-direction: column;
+        width: 100vw;
     }
 
     .droite2{
@@ -190,7 +192,11 @@
     }
 
     .gauche2{
-        width: 250px;
+        width: 90vw;
+    }
+
+    .centre{
+        transform: translateX(-25px);
     }
 
     .portfolio p:nth-child(3){
