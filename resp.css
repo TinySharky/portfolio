@@ -123,12 +123,12 @@
 
 @media screen and (max-width: 767px){
     #fond{
-        height: 35vh;
-        width: 100%;
+        height: 30vh;
+        width: 100vw;
     }
 
     .main{
-        height: 35vh;
+        height: 30vh;
     }
 
     header{
@@ -176,10 +176,6 @@
         margin-bottom: 20px;
     }
 
-    .esprit:hover, .informatique:hover, .ecole:hover{
-        scale: 1;
-    }
-
     .skills p:nth-child(3){
         letter-spacing: 1px;
         padding: 0 10px;
@@ -204,21 +200,17 @@
     }
 
     .fond-site{
-        height: 170px;
+        height: 150px;
         width: 310px;
     }
 
-    .fond-site:hover{
-        scale: 1;
-    }
-
     .container3 img{
-        height: 160px;
-        width: 300px;
+        height: 130px;
+        width: 290px;
     }
 
     .tab p{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     footer p{
