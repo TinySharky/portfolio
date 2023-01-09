@@ -1,4 +1,4 @@
-/* @keyframes ouverture{
+@keyframes ouverture{
     0%{
         opacity: 0%;
     }
@@ -10,7 +10,7 @@
     100%{
         opacity: 100%;
     }
-} */
+}
 
 *{
     margin: 0;
@@ -78,7 +78,7 @@ body{
 #fond{
     position: absolute;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 /* HEADER */
@@ -286,7 +286,7 @@ header a{
 
 .skills p:nth-child(3){
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: 2px;
     padding: 0 30%;
     line-height: 35px;
@@ -365,7 +365,7 @@ span{
 
 .prog-c{
     height: 100%;
-    width: 40%;
+    width: 50%;
     background-color: #FF3A3A;
     border-radius: 5px;
 }
@@ -552,6 +552,10 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tab{
+    display: none;
 }
 
 /* FOOTER */

@@ -41,6 +41,78 @@
         margin: 0 10px;
     }
 
+    .gauche{
+        width: 450px;
+    }
 
+    .gauche img{
+        height: 280px;
+    }
 
+    .droite p{
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-right: 50px;
+    }
+
+    .skills p:nth-child(3){
+        padding: 0 20%;
+        font-size: 18px;
+    }
+
+    .container2{
+        padding-top: 0px;
+        margin-bottom: -50px;
+    }
+
+    .gauche2{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .droite2{
+        width: 400px;
+    }
+
+    .droite2 img{
+        height: 400px;
+        width: 270px;
+    }
+
+    .droite2 button{
+        height: 60px;
+        width: 170px;
+    }
+
+    .portfolio{
+        height: auto;
+    }
+
+    .portfolio p:nth-child(3){
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding: 0 20%;
+    }
+
+    .container3{
+        flex-direction: column;
+    }
+
+    .contact ul{
+        display: none;
+    }
+
+    .tab{
+        display: block;
+    }
+
+    .tab p{
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        border: 2px solid red;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: red 5px 5px;
+    }
 }
