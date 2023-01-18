@@ -140,11 +140,11 @@
     }
 
     .pres p:first-child{
-        font-size: 42px;
+        font-size: 36px;
     }
 
     .pres p:nth-child(3){
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .propos{
@@ -167,9 +167,8 @@
     }
 
     .infos{
-        margin-top: 130px;
         flex-direction: column;
-        margin-bottom: 100px;
+        height: auto;
     }
 
     .esprit, .informatique, .ecole{
@@ -182,7 +181,9 @@
     }
 
     .container2{
+        justify-content: flex-start;
         flex-direction: column;
+        width: 100vw;
     }
 
     .droite2{
@@ -191,7 +192,11 @@
     }
 
     .gauche2{
-        width: 250px;
+        width: 90vw;
+    }
+
+    .centre{
+        transform: translateX(-25px);
     }
 
     .portfolio p:nth-child(3){
@@ -200,13 +205,13 @@
     }
 
     .fond-site{
-        height: 150px;
+        height: 180px;
         width: 310px;
     }
 
     .container3 img{
-        height: 130px;
-        width: 290px;
+        height: 170px;
+        width: 300px;
     }
 
     .tab p{
