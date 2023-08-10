@@ -30,7 +30,7 @@
     list-style: none;
     scroll-behavior: smooth;
     text-decoration: none;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body{
@@ -41,7 +41,6 @@ body{
     -webkit-animation:ouverture 2s ease 0s 1 normal;
     -ms-animation:ouverture 2s ease 0s 1 normal;
     width: 100%;
-    overflow-x: hidden;
 }
 
 /* NAVIGATION LATERALE */
